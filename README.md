@@ -10,7 +10,7 @@ Target roles: Embedded Software Engineer | Firmware Engineer | Embedded Systems 
 ## Languages & Tools
 - **Languages:** C, C++ (in progress), Assembly (planned), Rust (planned)
 - **Platforms:** STM32, ESP32, Arduino (Hardware Phase)
-- **Tools:** GCC, GDB, Git, Make/CMake, VS Code
+- **Tools:** GCC, GDB, Git, Make/CMake, VS Code, Visual Studio, CLion
 - **Concepts:** Memory Management, Protocols, RTOS, State Machines, Device Drivers
 
 ---
