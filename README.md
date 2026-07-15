@@ -3,7 +3,7 @@
 Personal embedded systems projects built from the ground up in C and C++.
 Focused on firmware fundamentals, simulation, and hardware interfacing.
 
-Target roles: Embedded Software Engineer | Firmware Engineer | Embedded Systems Engineer
+Target roles: Embedded Software Engineer | Embedded Hardware Engineer | Embedded Systems Engineer
 
 ---
 
