@@ -20,4 +20,7 @@ void my_free(void *ptr); // takes a pointer to the memory block to be freed
 
 void allocator_init(); // initializes the memory pool and sets up the initial free block
 
+void allocator_print_pool(void);
+
+
 #endif // ALLOCATOR_H

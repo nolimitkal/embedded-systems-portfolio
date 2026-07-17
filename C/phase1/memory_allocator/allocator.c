@@ -1,5 +1,6 @@
 #include "allocator.h"
 #include <stdint.h>
+#include <stdio.h>
 
 static uint8_t memory_pool[POOL_SIZE]; // before my_malloc
 
@@ -43,4 +44,21 @@ void allocator_init(void) {
     // mark it as free
     header->is_free = 1;
 
+}
+
+void allocator_print_pool(void) {
+    // cast memory_pool to BlockHeader pointer
+    BlockHeader *header = (BlockHeader *)memory_pool;
+    int total_blocks = 0;
+
+    // loop through all blocks while inside pool boundary
+    while ((uint8_t *)header + sizeof(BlockHeader) <= memory_pool + POOL_SIZE) {
+        printf("Block %d: Size = %zu, Is Free = %d\n", total_blocks, header->size, header->is_free);
+        total_blocks++;
+
+        // Move to the next block
+        header = (BlockHeader *)((uint8_t *)header + sizeof(BlockHeader) + header->size);
+    }
+
+    printf("Total blocks in pool: %d\n", total_blocks);
 }
