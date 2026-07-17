@@ -29,11 +29,13 @@ devices, and aerospace systems.
 - **Pointer Arithmetic** — manual navigation between memory blocks
 
 ### Memory Layout
+```
 MEMORY POOL (1024 bytes)
 ┌──────────────────┬──────────────────────┬─────────────────┐
 │ BlockHeader      │ Data                 │ BlockHeader ... │
 │ size | is_free   │ (usable memory)      │ size | is_free  │
 └──────────────────┴──────────────────────┴─────────────────┘
+```
 
 ### Core Functions
 
@@ -71,11 +73,15 @@ MEMORY POOL (1024 bytes)
 ---
 
 ## Project Structure
+
+```
 memory_allocator/
 ├── allocator.h    # Block header struct, constants, function declarations
 ├── allocator.c    # Core allocator implementation
 ├── main.c         # Test suite with edge case validation
-└── README.md      # Project documentation
+└── README.md      # Project documentation\
+```
+
 ---
 
 ## Build & Run
@@ -91,6 +97,7 @@ gcc -Wall -Wextra -g main.c allocator.c -o allocator
 
 ## Sample Output
 
+```
 Test 1 PASSED: Allocation successful
 Test 1: Memory freed
 Test 2 PASSED: Oversized allocation correctly returned NULL
@@ -105,6 +112,7 @@ Total blocks in pool: 1
 === After free ===
 Block 0: Size = 1008, Is Free = 1
 Total blocks in pool: 1
+```
 
 ---
 
