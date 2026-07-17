@@ -3,14 +3,14 @@
 Personal embedded systems projects built from the ground up in C and C++.
 Focused on firmware fundamentals, simulation, and hardware interfacing.
 
-Target roles: Embedded Software Engineer | Firmware Engineer | Embedded Systems Engineer
+Target roles: Embedded Software Engineer | Embedded Hardware Engineer | Embedded Systems Engineer
 
 ---
 
 ## Languages & Tools
 - **Languages:** C, C++ (in progress), Assembly (planned), Rust (planned)
 - **Platforms:** STM32, ESP32, Arduino (Hardware Phase)
-- **Tools:** GCC, GDB, Git, Make/CMake, VS Code
+- **Tools:** GCC, GDB, Git, Make/CMake, VS Code, Visual Studio, CLion
 - **Concepts:** Memory Management, Protocols, RTOS, State Machines, Device Drivers
 
 ---
