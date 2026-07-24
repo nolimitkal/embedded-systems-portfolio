@@ -44,11 +44,13 @@ these register-level operations used in production embedded firmware.
 
 ### Register Layout
 
+```
 SIMULATED 32-BIT REGISTER
-Bit: 31 30 29 28 ... 7 6 5 4 3 2 1 0
-Val: 0 0 0 0 ... 0 0 1 0 1 0 0 0
-▲ ▲
-Bit 5 Bit 3 are SET
+Bit: 31 30 29 28 ... 7  6  5  4  3  2  1  0
+Val:  0  0  0  0 ... 0  0  1  0  1  0  0  0
+                          ▲     ▲
+                        Bit 5  Bit 3 are SET
+```
 
 ### Core Macros
 
