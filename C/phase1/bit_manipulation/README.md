@@ -109,11 +109,13 @@ in place. This pattern — passing pointers only when modification is needed
 ---
 
 ## Project Structure
+```
 bit_manipulation/
-├── bit_manipulation.h # Macros, typedefs, function declarations
-├── bit_manipulation.c # Core function implementations
-├── main.c # Test suite simulating register operations
-└── README.md # Project documentation
+├── bit_manipulation.h    # Macros, typedefs, function declarations
+├── bit_manipulation.c    # Core function implementations
+├── main.c                # Test suite simulating register operations
+└── README.md             # Project documentation
+```
 
 ---
 
