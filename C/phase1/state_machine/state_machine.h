@@ -16,7 +16,14 @@ typedef struct {
 } TrafficLight;
 
 
+// Function that takes point to a Traffic Light
+void init_traffic_light(TrafficLight *light);
+
+// Function that takes point to a Traffic Light 
 void run_state_machine(TrafficLight* light);
+
+// Function that runs a cycle of the state machine using function pointers
+void run_state_machine_fp(TrafficLight *light);
 
 
 #endif // STATE_MACHINE_H

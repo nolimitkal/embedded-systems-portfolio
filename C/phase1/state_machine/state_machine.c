@@ -29,3 +29,36 @@ void run_state_machine(TrafficLight* light) {
     }
 
 }
+
+
+//---------Function Pointer Pattern Implementation---------
+
+// Each state gets its own handler function
+void handle_green(TrafficLight* light) {
+    printf("Current state: Green\n");
+    light->currentState = STATE_YELLOW;
+}
+
+void handle_yellow(TrafficLight* light) {
+    printf("Current state: Yellow\n");
+    light->currentState = STATE_RED;
+}
+
+void handle_red(TrafficLight* light) {
+    printf("Current state: Red\n");
+    light->currentState = STATE_GREEN;
+}
+
+
+// array of function pointers for each state
+void (*state_handlers[])(TrafficLight*) = {
+    handle_green,
+    handle_yellow,
+    handle_red
+};
+
+// Function that runs a cycle of the state machine using function pointers
+void run_state_machine_fp(TrafficLight *light) {
+    state_handlers[light->currentState](light);
+}
+
