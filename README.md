@@ -22,7 +22,7 @@ Target roles: Embedded Software Engineer | Embedded Hardware Engineer | Embedded
 |---------|-------------|--------|
 | [Memory Allocator](C/phase1/memory_allocator) | Custom malloc/free implementation | ✅ Complete |
 | [Bit Manipulation](C/phase1/bit_manipulation) | Register-level bitwise operations | ✅ Complete |
-| [State Machine](C/phase1/state_machine) | Finite state machine framework | ⏳ Pending |
+| [State Machine](C/phase1/state_machine) | Finite state machine framework | ✅ Complete |
 
 ---
 
