@@ -31,7 +31,7 @@ Target roles: Embedded Software Engineer | Embedded Hardware Engineer | Embedded
 
 | Project | Description | Status |
 |---------|-------------|--------|
-| [CAN Bus Simulator](C/phase2/can_bus_simulator) | Automotive CAN protocol simulation | ⏳ Pending |
+| [CAN Bus Simulator](C/phase2/can_bus_simulator) | Automotive CAN protocol simulation | ✅ Complete |
 | [UART Simulator](C/phase2/uart_simulator) | Serial communication simulation | ⏳ Pending |
 | [Ring Buffer](C/phase2/ring_buffer) | Circular buffer implementation | ⏳ Pending |
 
