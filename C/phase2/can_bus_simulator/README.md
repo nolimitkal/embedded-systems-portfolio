@@ -70,6 +70,7 @@ the bus, while other nodes back off and retry.
 ---
 
 ## Project Structure
+```
 
 can_bus_simulator/
 ├── can_bus.h # CANFrame struct and function declarations
@@ -77,6 +78,7 @@ can_bus_simulator/
 ├── main.c # Simulates three nodes and tests arbitration
 └── README.md # Project documentation
 
+```
 
 ---
 
