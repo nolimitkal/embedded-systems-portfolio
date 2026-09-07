@@ -44,11 +44,14 @@ attempt to transmit simultaneously.
 ### Bus Arbitration
 
 SIMULATED CAN BUS
+```
 
 Node A (ID: 0x100) ──┐
 Node B (ID: 0x200) ──┼──► [ARBITRATION] ──► Winning Frame
 Node C (ID: 0x050) ──┘ │
 Lowest ID wins
+
+```
 
 
 CAN is a broadcast protocol where message priority is determined by the
