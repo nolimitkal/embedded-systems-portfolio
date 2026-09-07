@@ -34,12 +34,12 @@ attempt to transmit simultaneously.
 
 ### CAN Frame Structure
 
-\`\`\`
+```
 ┌──────┬──────┬──────────────────┐
 │  ID  │ DLC  │   Data[8]        │
 │uint32│ uint8│   uint8_t array  │
 └──────┴──────┴──────────────────┘
-\`\`\`
+```
 
 ### Bus Arbitration
 
