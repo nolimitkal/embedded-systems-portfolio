@@ -78,7 +78,6 @@ the transmitted parity bit, signaling a transmission error.
 
 ### Core Functions
 
-```
 
 | Function | Description |
 |----------|-------------|
@@ -87,7 +86,6 @@ the transmitted parity bit, signaling a transmission error.
 | `uart_decode(frame)` | Extracts the original data byte from a UART frame |
 | `uart_print_frame(frame)` | Prints all frame fields including binary data representation |
 
-```
 
 ---
 
